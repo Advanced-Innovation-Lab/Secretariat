@@ -1,0 +1,26 @@
+{
+	"private": true,
+	"name": "aria",
+	"type": "module",
+	"scripts": {
+		"deploy": "wrangler deploy --no-bundle",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"build": "tsup",
+		"tail": "wrangler tail"
+	},
+	"dependencies": {
+		"@ai-d/aid": "^0.1.5",
+		"cloudflare-email": "^0.0.8",
+		"cloudflare-email-parser": "^0.0.3",
+		"debug": "^4.3.4",
+		"openai": "^4.20.1",
+		"showdown": "^2.1.0",
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"@types/debug": "^4.1.12",
+		"@types/showdown": "^2.0.6",
+		"tsup": "^8.0.1"
+	}
+}

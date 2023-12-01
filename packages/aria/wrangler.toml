@@ -1,0 +1,14 @@
+name = "secretary-aria"
+main = "dist/index.js"
+compatibility_date = "2023-11-21"
+
+workers_dev = false
+
+[build]
+command = "pnpm build"
+cwd = "."
+watch_dir = "src"
+
+[vars]
+# OPENAI_API_KEY
+# OPENAI_API_ENDPOINT (optional, use with Cloudflare AI Gateway)
